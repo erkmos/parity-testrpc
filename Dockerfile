@@ -1,4 +1,4 @@
-FROM rust:1-buster as builder
+FROM ubuntu:18.04 as builder
 
 ARG PARITY_VERSION=2.6.4
 
